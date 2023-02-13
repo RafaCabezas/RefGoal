@@ -1,0 +1,30 @@
+/* pagina error */
+
+.container {
+    width: 70%;
+    margin-top: 15px;
+}
+
+.pagError {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.btn button {
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 15px;
+    background: #eceff1;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn button:hover {
+    background-color: #e2f1f8;
+    color: #42A05D;
+    transform: scale(1.1);
+}
